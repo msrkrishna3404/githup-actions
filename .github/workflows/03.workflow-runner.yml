@@ -12,3 +12,16 @@ jobs:
                 echo "Runner OS: $RUNNER_OS"
                 df -h 
                 free -m 
+                lsblk 
+
+    windows-echo: 
+        runs-on: windows-latest
+        steps: 
+            - name: windows runner os
+              shell: bash
+              run: |  
+                echo "Print windows runner name"
+                echo "Runner OS: $RUNNER_OS"
+                df -h 
+                free -m 
+                lsblk
