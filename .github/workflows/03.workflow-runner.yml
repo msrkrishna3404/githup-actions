@@ -10,3 +10,5 @@ jobs:
               run: | 
                 echo "print ubuntu runner os name"
                 echo "Runner OS: $RUNNER_OS"
+                df -h 
+                free -m 
