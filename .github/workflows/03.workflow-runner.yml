@@ -23,3 +23,14 @@ jobs:
                 echo "Print windows runner name"
                 echo "Runner OS: $RUNNER_OS"
                 df -h 
+
+    mac-echo: 
+        runs-on: mac-latest
+        steps: 
+            - name: mac runner os 
+              run: | 
+                echo "Print mac runner os name"
+                echo "Runner OS: $RUNNER_OS"
+                df -h 
+                free -m 
+                lsblk
