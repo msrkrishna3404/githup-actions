@@ -25,7 +25,7 @@ jobs:
                 df -h 
 
     mac-echo: 
-        runs-on: mac-latest
+        runs-on: macos-latest
         steps: 
             - name: mac runner os 
               run: | 
