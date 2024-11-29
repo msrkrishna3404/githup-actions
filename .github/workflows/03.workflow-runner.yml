@@ -23,5 +23,3 @@ jobs:
                 echo "Print windows runner name"
                 echo "Runner OS: $RUNNER_OS"
                 df -h 
-                free -m 
-                lsblk
