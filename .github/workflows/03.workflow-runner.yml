@@ -32,5 +32,3 @@ jobs:
                 echo "Print mac runner os name"
                 echo "Runner OS: $RUNNER_OS"
                 df -h 
-                free -m 
-                lsblk
